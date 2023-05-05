@@ -2,6 +2,8 @@ git pull origin main ---> atualiza o código principal (primeira coisa a fazer a
 
 git status -----> mostra os arquivos criados e modificados e se eles já foram adicionados ou não
 
+(vermelhos não foram adicionados e verdes sim)
+
 git add . -----> adiciona todos os arquivos modificados e criados
 
 git commit -m "descreva as alterações no código feitas por vc" -----> envia os arquivos para um estágio quase pronto
