@@ -12,4 +12,4 @@ git push origin sua branch -----> sobe o código pro github
 
 git checkout -b nomeDaBranch -----> cria a sua branch local onde vc irá fazer os seus projetos
 
-git rebase origin main ---> refaz a sua branch com base na principal
+git rebase origin nomeDaBranch ---> refaz a sua branch com base na principal
