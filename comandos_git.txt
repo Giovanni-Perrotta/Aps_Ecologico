@@ -2,7 +2,7 @@ git pull origin main ---> atualiza o código principal (primeira coisa a fazer a
 
 git status -----> mostra os arquivos criados e modificados e se eles já foram adicionados ou não
 
-(vermelhos não foram adicionados e verdes sim)
+(vermelhos não foram adicionados e verdes sim)y
 
 git add . -----> adiciona todos os arquivos modificados e criados
 
