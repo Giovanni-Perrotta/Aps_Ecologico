@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/Impacto.css">
     <script src="script.js" defer></script>
     <title>APS Main</title>
 </head>
-<body>
+<body onload="comeco();regular()">
+    <div class="fundoTransparente"></div>
 
     <!-- sobre o JavaScript, implementar como achar melhor ou me chamar caso não saiba oq fazer ou como fazer -->
 
@@ -23,6 +25,7 @@
         <div><a href="#">pág 5</a></div>
     </header>
 
+   
     <main>
 
         <!-- cada tela com o seu titulo e seus conteudos dentro das sections -->
@@ -57,8 +60,10 @@
                 acentuação do processo de eutrofização dos corpos hídricos
             </li>
             
-            <img src="../imgs/Navegando-pelo-rio.jpg" alt="rio">
+            
         </section>
+
+        <img src="../imgs/Navegando-pelo-rio.jpg" alt="rio">
 
         <h1>O que causa e principais impactos ao meio ambiente</h1>
 
@@ -73,51 +78,53 @@
                 Além de afetar o meio ambiente, poluindo o solo, lençóis freáticos e reservatórios de água, <br>
                 a falta de saneamento básico causa impacto direto nas condições e na qualidade de vida das pessoas. <br>
 
+            </p>
+        </section>
+
+
+            <h2>E qual é o impacto ambiental causado pela falta de saneamento?</h2>
+
+            <section>
+
+            <li>Poluição de rios e mares</li>
             <p>
-
-                <h2>E qual é o impacto ambiental causado pela falta de saneamento?</h2>
-
-                <li>Poluição de rios e mares</li>
-                <p>
-                    O lançamento de esgotos não tratados pode poluir os mares, os lençóis freáticos <br>
-                    e toda espécie de manancial, levando à morte de animais e comprometendo ecossistemas inteiros. <br>
-                </p>
+                O lançamento de esgotos não tratados pode poluir os mares, os lençóis freáticos <br>
+                e toda espécie de manancial, levando à morte de animais e comprometendo ecossistemas inteiros. <br>
+            </p>
             
-                <li>Redução da água disponível para consumo</li>
-                <p>
-                    Em razão da poluição dos recursos hídricos, <br>
-                    ocorre a redução da água bruta com qualidade para tratamento e consumo humano <br>
-                </p>
+            <li>Redução da água disponível para consumo</li>
+            <p>
+                 Em razão da poluição dos recursos hídricos, <br>
+                 ocorre a redução da água bruta com qualidade para tratamento e consumo humano <br>
+            </p>
 
-                <li>Desequilíbrio de ecossistemas</li>
-                <p>
-                    Ocorre quando algum elemento de um ecossistema é reduzido em quantidade. <br>
-                    Essa mudança pode originar reações em cadeia e repercutir diretamente no funcionamento do ecossistema. <br>
-                </p>
+            <li>Desequilíbrio de ecossistemas</li>
+            <p>
+                Ocorre quando algum elemento de um ecossistema é reduzido em quantidade. <br>
+                Essa mudança pode originar reações em cadeia e repercutir diretamente no funcionamento do ecossistema. <br>
+            </p>
 
-                <li>Poluição urbana</li>
-                <p>
-                    Porém, a realidade, é outra. Segundo estudo do Ipea, cerca de 35% dos resíduos sólidos <br>
-                    gerados no Brasil poderiam ser reaproveitados ou reciclados. <br>
-                    Apesar disso, apenas 13% desse total acaba tendo esse destino. <br>
-                </p>
+            <li>Poluição urbana</li>
+            <p>
+                Porém, a realidade, é outra. Segundo estudo do Ipea, cerca de 35% dos resíduos sólidos <br>
+                gerados no Brasil poderiam ser reaproveitados ou reciclados. <br>
+                Apesar disso, apenas 13% desse total acaba tendo esse destino. <br>
+            </p>
+        </section>
 
+        <section>
 
-                <div class="carrossel">
-                    <div class="container" id="img">
-                        <img src="../imgs/Rio1.jpg" alt="">
-                        <img src="/imgs/Rio2.jpg" alt="">
-                        <img src="/imgs/rio4.jpg" alt="">
-                    </div>
-
-              
-
-
+            <div>
+                    
+                <a id="aId"><img id="imgId" src="../imgs/Rio1.jpg"></a>
+                <br>
+                <a id="prev" href="javascript:menos()"><img style="height: 24px; width: 24px; margin-right: 400px;" src="../imgs/setaEsquerda.png" ></a>
+                <a id="next" href="javascript:mais()"><img style="height: 24px; width: 24px;" src="../imgs/setaDireita.png" ></a>
+                <form style="display: none;" name="form">
+                    <input type=text name="texto">
+                </form>
             </div>
-
-
-         
-       
+        </section>
 
     </main>
 

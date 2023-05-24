@@ -1,5 +1,15 @@
 body{
     margin: 0;
+    background-image: url(../imgs/fundoEco.jpg);
+}
+
+.fundoTransparente {
+    background-color: #000;
+    z-index: -1; 
+    position: absolute;
+    height: 300vh;
+    opacity: 0.5; 
+    width: 100%;
 }
 
 header{
@@ -10,6 +20,7 @@ header{
     padding-right: 60px;
     padding-left: 15px;
     height: 120px;
+    background-color: #fff;
 }
 
 header img {
@@ -40,6 +51,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff52;
 }
 
 footer{
@@ -59,23 +74,6 @@ footer a {
     padding: 5px;
 }
 
-
-
-.carrossel{
-    box-shadow: 2px 2px 4px black;
-    overflow: hidden;
-    height: 500px;
-    width: 500px;
-}
-
-.container{
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-}
-
 img{
-    object-fit: cover;
-    height: 500px;
-    width: 500px;
+    margin: 10px;
 }
