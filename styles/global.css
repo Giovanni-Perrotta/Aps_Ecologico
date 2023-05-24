@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url(../imgs/fundoEco.jpg);
+    background-repeat: repeat-y;
 }
 
 .fundoTransparente {
