@@ -1,13 +1,14 @@
 body{
     margin: 0;
     background-image: url(../imgs/fundoEco.jpg);
+    background-repeat: repeat-y;
 }
 
 .fundoTransparente {
     background-color: #000;
     z-index: -1; 
     position: absolute;
-    height: 300vh;
+    height: 150vh;
     opacity: 0.5; 
     width: 100%;
 }
@@ -55,6 +56,12 @@ main {
     font-size: 20px;
     font-weight: 600;
     background-color: #ffffff52;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer{
